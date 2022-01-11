@@ -21,7 +21,6 @@ body {
 
 .generator {
   display: flex;
-  gap: 1em;
   font-size: 32px;
   padding-bottom: 1em;
 }
@@ -43,4 +42,21 @@ input[type="button"] {
   flex: 1;
   min-width: 65%;
   padding: .25em .5em;
+}
+
+@media screen and (max-width: 512px) {
+  body {
+    padding: .25em;
+  }
+  svg {
+    width: 100vw;
+    height: 100vw;
+  }
+  .generator {
+    display: block;
+  }
+  #codedata {
+    min-width: none;
+    width: 100vw;
+  }
 }

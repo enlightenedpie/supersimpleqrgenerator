@@ -49,7 +49,8 @@ const App = () => {
           title="QR code"
           value={qrVal}
           size={512}
-          level="H"
+          level="Q"
+          viewBox="0 0 512 512"
         />
         <p>Enter your text to create a new QR code.</p>
         <div className="generator">
