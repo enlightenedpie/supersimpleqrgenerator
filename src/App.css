@@ -23,6 +23,7 @@ body {
   display: flex;
   font-size: 32px;
   padding-bottom: 1em;
+  gap: 1em;
 }
 
 .generator > .generator {
