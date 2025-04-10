@@ -24,8 +24,8 @@ const App = () => {
 
     let canvas = document.createElement("canvas");
     let context = canvas.getContext("2d");
-    canvas.width = width;
-    canvas.height = height;
+    canvas.width = width - 10;
+    canvas.height = height - 10;
 
     let image = new Image();
     image.onload = () => {
