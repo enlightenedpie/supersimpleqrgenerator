@@ -33,7 +33,7 @@ const App = () => {
       let png = canvas.toDataURL();
 
       let a = document.createElement("a");
-      a.download = encodeURI(qrVal);
+      a.download = `${encodeURI(qrVal)}.gif`;
       a.href = png;
       a.click();
     };
